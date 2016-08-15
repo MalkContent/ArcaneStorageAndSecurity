@@ -20,12 +20,12 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "1.0"
+version = "0.2"
 group= "com.yourname.modid" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "modid"
+archivesBaseName = "tca_arcsas"
 
 minecraft {
-    version = "1.8.9-11.15.1.1902-1.8.9"
+    version = "1.8.9-11.15.1.1751"
     runDir = "run"
     
     // the mappings can be changed at any time, and must be in the following format.
@@ -38,6 +38,7 @@ minecraft {
 }
 
 dependencies {
+	compile files("MaCoLib/Thaumcraft-1.8.9-5.2.4-deobf.jar", "MaCoLib/Baubles-1.8.9-1.1.3.0-deobf.jar")
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
@@ -79,4 +80,10 @@ processResources
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
+}
+
+compileJava {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+    options.encoding = 'UTF-8'
 }
