@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tca_arcsas",
+  "name": "Arcane Storage and Security",
+  "description": "Example placeholder mod.",
+  "version": "0.2",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["MalkContent"],
+  "credits": "The Forge and FML guys, Azanor",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [Thaumcraft]
+}
+]

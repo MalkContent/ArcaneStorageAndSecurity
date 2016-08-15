@@ -1,0 +1,25 @@
+# TCARCSAS RESEARCH ITEMS
+#######################
+tc.research_category.CAT_ARCANESTORAGE=Arcane Storage
+#
+# TCARCSAS RESEARCH ITEMS
+#######################
+tc.research_name.TOOLRING_MINOR=Modular Foldable Toolstorage
+tc.research_text.TOOLRING_MINOR=It's smaller on the inside.
+tc.research_page.TOOLRING_MINOR.1=After making the ingenious decision to put your foci in a pouch for easy storage and access you wondered if you couldn't apply the same principle to manage your ever increasing assortment of tools.<BR>Your breakthrough with infusion enchanting finally gave you enough insight into the nature of thaumium and greatwood to create a lightweight shrinking and reshaping enchantment to make this new toolstorage a reality! All it took was some additional tinkering and you were good to go.
+tc.research_page.TOOLRING_MINOR.2=The Modular Foldable Toolstorage works much like a focus pouch for mining tools, with a key difference: It stays attached to the tool you chose and as such, you can only access tools stored inside it.<BR>The nature of the enchantment also requires careful handling. Any action that would remove regular enchantments from the active tool is likely to destroy the attached Modular Foldable Toolstorage. With all your other tools inside.
+#
+tc.research_name.TOOLRING_MAJOR=trrrrr
+tc.research_text.TOOLRING_MAJOR=blob
+tc.research_page.TOOLRING_MAJOR.1=smerk
+tc.research_page.TOOLRING_MAJOR.2=smark
+#
+#Items
+#######################
+item.tca_arcsas.toolring.0.name=Modular Foldable Toolstorage
+item.tca_arcsas.toolring.1.name=Ring of Tools
+#
+#Misc
+#######################
+misc.istoolring=Toolstorage
+#
